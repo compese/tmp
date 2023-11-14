@@ -8,4 +8,6 @@ jobs:
 
     steps:
     - name: Echo Hello World
-      run: ls -a ; pwd
+      run: ls -a ; pwd ; \
+        echo $HOME
+
