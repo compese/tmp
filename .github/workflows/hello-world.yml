@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Echo Hello World
+      - name: Echo Hello World
         run: echo "Commit message: ${{ github.event.head_commit.message }}"
