@@ -8,4 +8,7 @@ jobs:
 
     steps:
     - name: Echo Hello World
-      run: echo "foobar " ; echo "baz"
+      run: |
+           echo $SHELL
+           echo $HOME
+           pwd
