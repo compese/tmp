@@ -9,5 +9,5 @@ jobs:
     steps:
     - name: Echo Hello World
       run: ls -a ; pwd ; \
-        echo $HOME
+      echo: $SHELL
 
