@@ -8,6 +8,5 @@ jobs:
 
     steps:
     - name: Echo Hello World
-      run: ls -a ; pwd ; \
-      echo: $SHELL
-
+      run: echo "foobar ${{ github.event.head_commit.message }}"
+      run: echo $SHELL
