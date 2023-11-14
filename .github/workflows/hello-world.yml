@@ -8,4 +8,4 @@ jobs:
 
     steps:
     - name: Echo Hello World
-      run: echo "Commit message: "
+      run: echo "Hello, World!!!!"
